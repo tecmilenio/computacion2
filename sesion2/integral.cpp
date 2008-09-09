@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+/* Este es un programa que calcula pi de forma recursiva */
+
 using namespace std;
 
 float calcpi(float); // Función que calcula PI
