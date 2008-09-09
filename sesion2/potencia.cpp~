@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+float potencia(float);
+
+int main() {
+
+  int base, exponente;
+
+  cout << "Dame una base y un exponente: " << endl;
+
+  cin >> valor >> exponente;
+
+  cout << potencia(base,exponente);
+
+  return 0;
+}
+
