@@ -29,6 +29,7 @@ Sesion 03:
 Sesion 04:
 ----------
 
+ - Presentación de la documentación de librería estandar de C++, en su version de Dinkumware. Esta es consultable a traves de [gotapi.com](http://www.gotapi.com)
  - Uso de diferentes `namespace`
  - Repaso de manejo de archivos
  - Se resolvio el problema de la maquina virtual y se reasigno la Tarea 1
