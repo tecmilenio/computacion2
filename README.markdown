@@ -33,3 +33,11 @@ Sesion 04:
  - Uso de diferentes `namespace`
  - Repaso de manejo de archivos
  - Se resolvio el problema de la maquina virtual y se reasigno la Tarea 1
+
+Sesion 05:
+----------
+
+ - Repaso de maneje de archivos y flujos de bytes
+ - Presentación y ejercicios sobre apuntadores
+ - Fugas de Memoria y presentacion de la herramienta [YAMD](http://www.cs.hmc.edu/~nate/yamd/) para prevenirlas
+ - Apuntadores a funciones
