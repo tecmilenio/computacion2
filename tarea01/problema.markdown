@@ -18,27 +18,25 @@ Problema 3
 
 Escribe un programa que toma de un archivo de entrada los datos
 
-::
-  Cantidad, Precio Unitario y Descripción
+    Cantidad, Precio Unitario y Descripción
 
 para una lista de artículos, el programa debe mandar la información a un archivo de salida en forma de factura. Sacando el total de la factura y encabezados adecuados.
 
 Por ejemplo el archivo podría contener los siguientes datos:
 
-::
-  5 2.5 tornillos
-  10 2.0 tuercas
-  20 0.80 clavos
+    5 2.5 tornillos
+    10 2.0 tuercas
+    20 0.80 clavos
 
 y mostraría una factura similar a la siguiente:
 
-======== =========== ======== ======
-                 FACTURA
--------- ----------- -------- ------
-Cantidad Descripción Precio U Precio
-======== =========== ======== ======
-5        tornillos   2.50     12.50
-10       tuercas     2.00     20.00
-20	 clavos	     0.80     16.00
-======== =========== ======== ======
-                        Total: 48.50
+    ======== =========== ======== ======
+                     FACTURA
+    -------- ----------- -------- ------
+    Cantidad Descripción Precio U Precio
+    ======== =========== ======== ======
+    5        tornillos   2.50     12.50
+    10       tuercas     2.00     20.00
+    20	 clavos	     0.80     16.00
+    ======== =========== ======== ======
+                            Total: 48.50
