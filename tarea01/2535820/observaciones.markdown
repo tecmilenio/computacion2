@@ -38,7 +38,9 @@ Tercera Parte 15/33
 ### ej03_1.cpp
 - codigo mal acomodado... Retorno de carro como primera línea...
 - `getch()` y `conio.h`
-- El programa no se comporta como debería...
+- El programa no se comporta como debería, deberías de cargar cada producto del archivo de texto, en lugar de tenerlo "hard coded"...
+- las líneas 12,13 y 14 tambien las pudiste haber declarado sencillamente como: `char str[] = "tornillos"`
+
 
 Calificación total:
 ===================

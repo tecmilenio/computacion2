@@ -1,7 +1,7 @@
 
 # include <iostream>
 # include <fstream>
-#include <conio.h>
+//#include <conio.h>
 
 
 using namespace std;
@@ -38,7 +38,7 @@ Entrada.open("factura.txt");
     cout<<"                                                "<<Total                <<endl;         
            
     Entrada.close();
-        getch();
+    //        getch();
          return 0;
      
     
