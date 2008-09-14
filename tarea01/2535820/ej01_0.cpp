@@ -1,26 +1,25 @@
 # include <iostream>
 # include <fstream>
-//#include <conio.h>
+#include <conio.h>
 
-   using namespace std;
-   /*ifstream Entrada; */
-   ofstream Salida;
-   int noal, i;
-   int matr [4]={0}; 
-   
-   /*int i=0;*/
-   float cal1, cal2,cal3;
-     
-   int main()
+using namespace std;
+/*ifstream Entrada; */
+ofstream Salida;
+int noal, i;
+int matr [4]={0}; 
+
+/*int i=0;*/
+float cal1, cal2,cal3;
+
+int main()
 {
+  
+  Salida.open("alumnos.txt");
+ 
+  cout<<"Teclea el numero de alumnos";
+  cin>> noal;
     
-    Salida.open("alumnos.txt");
-                        
-    
-    cout<<"Teclea el numero de alumnos";
-    cin>> noal;
-    
-   do{
+  do{
     cout<< "dame la matricula ";
     cin>> matr[0];
     cin>> matr[1];
@@ -41,21 +40,21 @@
     Salida<<matr[2]<<endl;
     Salida<<matr[3]<<endl;
     i++;
-              }while(i<noal);
+  }while(i<noal);
           
     
     
        
-         cout<<"Tu archivo esta creado"<< endl;
-         Salida.close();
+  cout<<"Tu archivo esta creado"<< endl;
+  Salida.close();
          
-        /* Entrada.open("alumnos.txt");
-    
-    if (Entrada.fail()){
-    cout<< "el archivo no se pudo abrir";
-    exit(1); 
-    }
-
+  /* Entrada.open("alumnos.txt");
+     
+     if (Entrada.fail()){
+     cout<< "el archivo no se pudo abrir";
+     exit(1); 
+     }
+     
     Entrada >> cal1 >> cal2 >> cal3>> matr  ;
     cout<< "los datos del archivo son:"<<endl;
     cout<< cal1 <<"  "<<cal2<< "  " << cal3<<" "<<matr<< endl;
@@ -65,12 +64,9 @@
     
     Entrada.close();
          */
-         
-	 //         getch();
-         return 0;
+  
+  getch();
+
+  return 0;
+
 }   
-    
-    
-    
-    
-   
