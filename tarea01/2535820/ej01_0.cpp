@@ -1,6 +1,6 @@
 # include <iostream>
 # include <fstream>
-#include <conio.h>
+//#include <conio.h>
 
    using namespace std;
    /*ifstream Entrada; */
@@ -66,7 +66,7 @@
     Entrada.close();
          */
          
-         getch();
+	 //         getch();
          return 0;
 }   
     
