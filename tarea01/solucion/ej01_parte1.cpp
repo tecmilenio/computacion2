@@ -3,12 +3,19 @@
 
 using namespace std;
 
-fstream archivo("salida_problema1.txt", ios::out);
-
 int main() {
 
   int matricula = 0,
     calificaciones[3] = {0}; // Inicializamos variables
+
+  fstream archivo("salida_problema1.txt", ios::out);
+
+  if (archivo.fail()) { // Esto es equivalente a usar un archivo.fail()
+
+    cout << "No se pudo abrir el archivo de salida" << endl;
+    exit(1);
+
+  }
 
   while (true) { // Hacemos un ciclo hasta un break
 

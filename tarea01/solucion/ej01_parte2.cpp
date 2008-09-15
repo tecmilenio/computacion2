@@ -4,8 +4,6 @@
 
 using namespace std;
 
-fstream archivo("salida_problema1.txt", ios::in);
-
 int main() {
 
   int matricula = 0,
@@ -13,6 +11,15 @@ int main() {
 
   float promedioAcumulado = 0.0;
   int noDeAlumnos = 0;
+
+  fstream archivo("salida_problema1.txt", ios::in);
+
+  if (archivo.fail()) { // Esto es equivalente a usar un archivo.fail()
+
+    cout << "No se pudo abrir el archivo de salida" << endl;
+    exit(1);
+
+  }
 
   cout << setw(10) << "Matricula" << "\t Promedio \n" << endl;
 

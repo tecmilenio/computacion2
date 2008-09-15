@@ -6,8 +6,6 @@ using namespace std;
 
 const int tamano_str = 12;
 
-fstream archivo("datos_problema3.txt", ios::in);
-
 int main() {
 
   int cantidad;
@@ -16,6 +14,15 @@ int main() {
   char descripcion[ tamano_str ]; 
 
   float precioTotal = 0;
+
+  fstream archivo("datos_problema3.txt", ios::in);
+
+  if (archivo.fail()) { // Esto es equivalente a usar un archivo.fail()
+
+    cout << "No se pudo abrir el archivo de salida" << endl;
+    exit(1);
+
+  }
 
   cout << "============================================\n"  
        << "                   FACTURA                  \n" 

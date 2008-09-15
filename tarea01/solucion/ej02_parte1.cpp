@@ -12,12 +12,19 @@ using namespace std;
 
 int main() {
 
-  fstream archivo("text_problema2.txt", ios::in);
-
   char caracter;
 
   int numLineas = 0;
   int numCaracteres = 0;
+
+  fstream archivo("text_problema2.txt", ios::in);
+
+  if (archivo.fail()) { // Esto es equivalente a usar un archivo.fail()
+
+    cout << "No se pudo abrir el archivo de salida" << endl;
+    exit(1);
+
+  }
 
   while ((caracter = archivo.get()) != EOF) { 
     // Obtenemos un caracter hasta llegar al final de archivo (EOF == Enf Of File)
