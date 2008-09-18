@@ -41,3 +41,9 @@ Sesion 05:
  - Presentación y ejercicios sobre apuntadores
  - Fugas de Memoria y presentacion de la herramienta [YAMD](http://www.cs.hmc.edu/~nate/yamd/) para prevenirlas
  - Apuntadores a funciones
+
+Sesion 07:
+----------
+
+ - Paso de valores por referencia
+ - pasar matrices a una función
