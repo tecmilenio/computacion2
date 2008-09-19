@@ -47,3 +47,13 @@ Sesion 07:
 
  - Paso de valores por referencia
  - pasar matrices a una función
+
+Sesion 08:
+----------
+
+ - Repaso de apuntadores y matrices
+ - Programación orientada a objetos
+    * Abstracción de datos
+    * Mutadores
+    * Constructores
+    * Arreglos de objetos
