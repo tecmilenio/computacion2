@@ -9,7 +9,7 @@ void Rectangulo::Inicializa(float an, float la) {
 
 float Rectangulo::CalcArea() {
   
-  return ancho * largo;
+  return getAncho() * getLargo();
 
 }
 
